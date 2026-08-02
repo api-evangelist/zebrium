@@ -1,7 +1,26 @@
 aid: zebrium
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zebrium.png
 name: Zebrium
-description: 'Zebrium is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Zebrium was an AIOps startup that used unsupervised machine learning to
+  automatically detect anomalies and surface root cause from log data, correlating
+  logs and metrics into plain-language incident summaries without manual rules or
+  training. Backed by Accel, the company was acquired by ScienceLogic in 2022 and
+  its technology folded into the ScienceLogic AIOps / SL1 platform (now surfaced as
+  Skylar). The independent zebrium.com developer/API surface has been retired: the
+  domain 301-redirects to sciencelogic.com and no standalone Zebrium API, documentation,
+  or specification remains publicly discoverable. This profile is retained as a
+  network lead recording the acquisition and the residual domain footprint.'
 url: https://raw.githubusercontent.com/api-evangelist/zebrium/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +28,22 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: sciencelogic
+x-acquired-year: 2022
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- AIOps
+- Machine Learning
+- Log Management
+- Observability
+- Anomaly Detection
+- Root Cause Analysis
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +53,12 @@ maintainers:
 common:
 - type: Website
   url: https://www.zebrium.com/
+- type: Acquirer
+  url: https://sciencelogic.com/automated-root-cause-analysis
+- type: DomainSecurity
+  url: security/zebrium-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
