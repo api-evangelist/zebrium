@@ -72,6 +72,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/sciencelogic/
+  name: ScienceLogic
+  x-relationship: acquired
+  x-evidence: "Backed by Accel, the company was acquired by ScienceLogic in 2022 and its technology folded into the ScienceLogic AIOps / SL1 platform (now surfaced as Skylar)."
 - type: Website
   url: https://www.zebrium.com/
 - type: Acquirer
