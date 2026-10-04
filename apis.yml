@@ -51,7 +51,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AIOps
-- Machine-Learning
+- Machine Learning
 - Log Management
 - Observability
 - Anomaly Detection
@@ -67,6 +67,7 @@ tags_raw:
 - Anomaly Detection
 - Root Cause Analysis
 - Acquired
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
